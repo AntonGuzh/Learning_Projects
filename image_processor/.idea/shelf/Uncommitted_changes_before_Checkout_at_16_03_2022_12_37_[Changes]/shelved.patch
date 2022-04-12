@@ -1,0 +1,81 @@
+Index: ../../zip2/zip.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#pragma once\r\n\r\n#include <iterator>\r\n\r\ntemplate <typename Sequence1, typename Sequence2>\r\nauto Zip(const Sequence1& sequence1, const Sequence2& sequence2) {\r\n}\r\n
+===================================================================
+diff --git a/../../zip2/zip.h b/../../zip2/zip.h
+--- a/../../zip2/zip.h	
++++ b/../../zip2/zip.h	
+@@ -2,6 +2,41 @@
+ 
+ #include <iterator>
+ 
++template <typename Iterator1, typename Iterator2>
++class Zipped {
++public:
++    Zipped(Iterator1 a_begin, Iterator1 a_end, Iterator2 b_begin, Iterator2 b_end);
++
++    class ZipIterator {
++    public:
++        ZipIterator(Iterator1 a, Iterator2 b);
++
++        template <typename Value1, typename Value2>
++        std::pair<Value1, Value2> operator*();
++
++        bool operator==(const ZipIterator& other) const;
++        bool operator!=(const ZipIterator& other) const;
++
++        ZipIterator& operator++();
++
++    private:
++        Iterator1 a_;
++        Iterator2 b_;
++    };
++
++    ZipIterator begin();
++    ZipIterator end();
++
++private:
++    Iterator1 a_begin_;
++    Iterator1 a_end_;
++    Iterator2 b_begin_;
++    Iterator2 b_end_;
++    ZipIterator end_;
++};
++
+ template <typename Sequence1, typename Sequence2>
+ auto Zip(const Sequence1& sequence1, const Sequence2& sequence2) {
++    Zipped it(sequence1.begin(), sequence1.end(), sequence2.begin(), sequence2.end());
++    return it;
+ }
+Index: ../../zip2/test.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include <catch.hpp>\r\n\r\n#include \"zip.h\"\r\n\r\n#include <forward_list>\r\n#include <sstream>\r\n\r\nTEST_CASE(\"Zip2\") {\r\n    const int a[]{1, 2, 3, 4};\r\n    const std::forward_list<std::string> b = {\"one\", \"two\", \"three\"};\r\n    std::stringstream stream;\r\n\r\n    for (const auto& [first, second] : Zip(a, b)) {\r\n        stream << first << \":\" << second << \" \";\r\n    }\r\n\r\n    REQUIRE(\"1:one 2:two 3:three \" == stream.str());\r\n}\r\n
+===================================================================
+diff --git a/../../zip2/test.cpp b/../../zip2/test.cpp
+--- a/../../zip2/test.cpp	
++++ b/../../zip2/test.cpp	
+@@ -8,9 +8,10 @@
+ TEST_CASE("Zip2") {
+     const int a[]{1, 2, 3, 4};
+     const std::forward_list<std::string> b = {"one", "two", "three"};
++    const std::vector<int> c = {1, 2, 3, 4};
+     std::stringstream stream;
+ 
+-    for (const auto& [first, second] : Zip(a, b)) {
++    for (const auto& [first, second] : Zip(c, b)) {
+         stream << first << ":" << second << " ";
+     }
+ 
+Index: ../../zip2/CMakeLists.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>add_catch(test_zip2 test.cpp)\r\n
+===================================================================
+diff --git a/../../zip2/CMakeLists.txt b/../../zip2/CMakeLists.txt
+--- a/../../zip2/CMakeLists.txt	
++++ b/../../zip2/CMakeLists.txt	
+@@ -1,1 +1,1 @@
+-add_catch(test_zip2 test.cpp)
++add_catch(test_zip2 test.cpp zip.cpp)

@@ -1,0 +1,24 @@
+# ninja log v5
+2051	5410	6699242910780765	CMakeFiles/image_processor.dir/main.cpp.obj	8843dcda4b475274
+2501	4364	6699242900169710	CMakeFiles/image_processor.dir/filters/virtual_filters.cpp.obj	1e1c0866d8041110
+3481	5765	6699242914825010	CMakeFiles/image_processor.dir/picture.cpp.obj	bba4d1236ef7e9bf
+2	907	6714908997387396	build.ninja	6213cf49e5701f50
+3479	4932	6692344737367015	CMakeFiles/image_processor.dir/filters/compression.cpp.obj	c1a6df40955c128e
+142	2030	6699242877085833	CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj	b5fd92aef8128fa1
+99	2050	6699242876819640	CMakeFiles/image_processor.dir/filters/crop.cpp.obj	20981aeaaa0ace85
+2003	2587	6699242882243444	CMakeFiles/image_processor.dir/filters/helper_functions.cpp.obj	169684c71e9401fe
+132	2002	6699242876791851	CMakeFiles/image_processor.dir/filters/negative.cpp.obj	46317355100d7d6c
+47	781	6698466365097348	CMakeFiles/image_processor.dir/serialize_exceptions.cpp.obj	32b1e6f2e5963379
+8	2500	6699242881734723	CMakeFiles/image_processor.dir/color.cpp.obj	d51f1e5e423e4acb
+108	2041	6699242877101193	CMakeFiles/image_processor.dir/filters/edge_detection.cpp.obj	fb746238c594d19b
+2041	3480	6699242891472336	CMakeFiles/image_processor.dir/filters/sharpening.cpp.obj	65f2a773973dd538
+2030	5456	6699242911478986	CMakeFiles/image_processor.dir/parser.cpp.obj	621d222b6ac2d94c
+1081	2447	6699247240311254	image_processor.exe	7fdc2de270729384
+6176	9275	6697248379785902	CMakeFiles/image_processor.dir/saver_exceptions.cpp.obj	4ed6f3dc78a8b6eb
+1579	3444	6682766169280856	CMakeFiles/image_processor.dir/saver.cpp.obj	75590ab6824f5219
+31	3691	6697365931636116	CMakeFiles/image_processor.dir/filters/gaussianblur.cpp.obj	54798c77f7c7df5b
+1750	4644	6697294153784164	CMakeFiles/image_processor.dir/serilator.cpp.obj	d6cec8ca82f845f1
+3330	3735	6692344725129750	CMakeFiles/image_processor.dir/serilator_exceptions.cpp.obj	f345834be1dff28
+2588	6205	6699242919290122	CMakeFiles/image_processor.dir/serialize.cpp.obj	74ab57ee894fdb7d
+121	5444	6699242911395661	CMakeFiles/image_processor.dir/filters/gaussian_blur.cpp.obj	38877158646ce653
+6	1080	6699247226799452	CMakeFiles/image_processor.dir/filters/posterize.cpp.obj	1b2f1dd09d20e3e7

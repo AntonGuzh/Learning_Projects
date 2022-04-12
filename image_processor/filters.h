@@ -1,0 +1,7 @@
+#include "filters/crop.h"
+#include "filters/edge_detection.h"
+#include "filters/gaussian_blur.h"
+#include "filters/grayscale.h"
+#include "filters/negative.h"
+#include "filters/posterize.h"
+#include "filters/sharpening.h"

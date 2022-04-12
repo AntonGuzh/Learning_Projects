@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="image_processor" targetName="image_processor" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9898821-163c-4cad-8b24-3ff213d29ab1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/filters/posterize.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filters/posterize.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/corp.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/edge.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/final.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/finall.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/finalll.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gs.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/neg.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/post.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/postt.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/res.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/res2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sp.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test222.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/color.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color.h" beforeDir="false" afterPath="$PROJECT_DIR$/color.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filters.h" beforeDir="false" afterPath="$PROJECT_DIR$/filters.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/parser.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../.." value="submits/zip2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectId" id="25YVMJhvP7IUutDLozA3nLPBj2I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Course\cpp-base-hse-2022\tasks\projects\image_processor\serialize" />
+      <recent name="C:\Course\cpp-base-hse-2022\tasks\projects\image_processor\filters" />
+      <recent name="C:\Course\cpp-base-hse-2022\tasks\projects\image_processor\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="image_processor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="image_processor" TARGET_NAME="image_processor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="image_processor" RUN_TARGET_NAME="image_processor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9898821-163c-4cad-8b24-3ff213d29ab1" name="Changes" comment="" />
+      <created>1645703958655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645703958655</updated>
+      <workItem from="1645703961195" duration="4528000" />
+      <workItem from="1645794153876" duration="19440000" />
+      <workItem from="1645955590875" duration="22111000" />
+      <workItem from="1646044726923" duration="13775000" />
+      <workItem from="1646164622058" duration="15594000" />
+      <workItem from="1646235282649" duration="2533000" />
+      <workItem from="1646369588005" duration="10712000" />
+      <workItem from="1646398261665" duration="25023000" />
+      <workItem from="1647331727675" duration="41209000" />
+      <workItem from="1648021607224" duration="31001000" />
+      <workItem from="1648534893172" duration="26000" />
+      <workItem from="1648638899362" duration="15000" />
+      <workItem from="1648812493939" duration="212000" />
+      <workItem from="1649787677954" duration="616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
